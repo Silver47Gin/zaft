@@ -1,0 +1,14 @@
+{
+  "name": "zaft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Silver47Gin/zaft.git",
+  "author": "linqifan <linqifan@wolwobiotech.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
