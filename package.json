@@ -2,13 +2,18 @@
   "name": "zaft",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "repository": "https://github.com/Silver47Gin/zaft.git",
   "author": "linqifan <linqifan@wolwobiotech.com>",
   "license": "MIT",
   "dependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "typescript": "^4.1.3"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules && lerna clean -y"
+  }
 }

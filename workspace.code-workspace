@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "✨ zaft",
+			"path": "."
+		},
+		{
+			"name": "📦 blog",
+			"path": "packages\\blog"
+		},
+		{
+			"name": "📦 cli",
+			"path": "packages\\cli"
+		}
+	],
+	"settings": {}
+}
