@@ -1,6 +1,18 @@
 {
-  "name": "cli",
+  "name": "@zaft/cli",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "bin": {
+    "cli": "lib/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^7.0.0",
+    "superagent": "^6.1.0",
+    "superagent-proxy": "^2.1.0"
+  }
 }
