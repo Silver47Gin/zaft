@@ -1,0 +1,11 @@
+{
+  "name": "@zaft/spider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "puppeteer-core": "^6.0.0",
+    "typescript": "^4.1.3"
+  }
+}
